@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <button id="button">the council will choose your fate</button>
+    <p id="text">p r e s s  t h e  b u t t o n</p>
+
+    <button id="button-2">DONT CLICK ME</button>
+
+    <script type="text/javascript">
+
+        document.getElementById("button").onclick = function() {
+            document.getElementById("text").innerHTML = "good you pressed the button now DONT PRESS THE NEXT BUTTON";
+        }
+
+        document.getElementById("button-2").onclick = function() {
+            document.getElementById("text").innerHTML = "stopid what did i tell you. now you have 100 years gulag";
+        }
+    </script>
+    </script>
+</body>
+</html>
